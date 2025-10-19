@@ -51,3 +51,11 @@ button {
 }  
 #split {display:flex; flex-direction: row; flex-wrap: wrap;
 }  
+#output {color:aquamarine;   
+    background-color: grey;
+    font-size: medium;
+} 
+#output2 {color:aquamarine;   
+    background-color: grey;
+    font-size: large;
+}
