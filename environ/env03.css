@@ -53,7 +53,10 @@ button {
 }  
 #output {color:aquamarine;   
     background-color: grey;
-    font-size: medium;
+    font-size: medium; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 
 } 
 #output2 {color:aquamarine;   
     background-color: grey;
