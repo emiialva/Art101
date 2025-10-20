@@ -49,12 +49,13 @@ button {
     display: flex;
     flex-wrap: wrap;
 }  
-#split {display:flex; flex-direction: row; flex-wrap: wrap;
+#split { display: block;
+  margin-left: auto;
+  margin-right: auto; flex-direction: row; flex-wrap: wrap;
 }  
 #output {color:aquamarine;   
     background-color: grey; 
-    font-size: medium; 
-    text-align:right; 
+    font-size: medium;   
     text-align: center;
       
 
