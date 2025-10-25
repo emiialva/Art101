@@ -1,35 +1,46 @@
-
-let count= 0 ;  
-let colorCount=0;
-let colors=["Orchid", "Coral","HotPink", "Plum",];  //new line tp add 
- 
-$("#needy-button").click(function() 
-{ 
-  let reminder=count% colors.length;   
-   
+var count = 0;
+let colorCount = 0;
+var colors = ["Orchid", "Coral", "HotPink", "Plum"];
   
-  if(count < 5) {mood="fresh and happy";} 
-  else if ((count>=5) && (count<10)){mood="keep pushing";} 
-  else {mood= "so tired";}
-
-  $("#needy-button").html("clicks: " + count + 
-    " Color: "+ colors[colorCount] + " "+mood); 
-  //new line tp add  
-   
   
+function makeImage(imageName){
+ if (colors[colorCount] == imageName) {
+       $("body").append("<img width=50 src='images/" +imageName+ ".png'>");
+   }   
+
+}
+  
+function changeBackground(newColor) {
+       $("body").css("background-color", newColor); 
+}
       
-  $("body").css("background-color",colors[colorCount]); 
- 
-  if (colors[colorCount]=="Orchid")
-  $("body").append("<img width=50 src='images/orchid.png'>"); 
+$(".color-button").click( function(){ 
+ changeBackground(this.id);
 
-    count = count + 1;   
-    colorCount= colorCount + 1;
-     
-    if (colorCount== 4){colorCount= 0;} 
-  
- 
- }); 
+}
+);  
+//move the mood deciding code outside as a seperate function and then call it from here, and use the result of the function for the button message
+ function moody(moodyCount){  
+    let mood="";
+ if (moodyCount < 5) { mood = "gresh and happy"; }
+   else if ((moodyCount >= 5) && (moodyCount < 10)) { mood = "keep pushing"; }
+   else { mood = "so tired"; }
+   $("#needy-button").html("Clicks: " + moodyCount + " Color: " + colors[colorCount] + " " + mood);  
 
-// messages [count%messages.length] 
-//remainder (%) operator returns the remainder left over when one operand 
+   return mood;
+ }
+
+// the button part
+$("#needy-button").click(function () {
+   let moodMessage=moody(count);
+ 
+   changeBackground(colors[colorCount]);
+    
+   makeImage("Coral"); 
+    makeImage("Orchid"); 
+    makeImage("Plum");
+
+   count = count + 1;
+   colorCount = colorCount + 1;
+   if (colorCount == 4) { colorCount = 0; }
+});

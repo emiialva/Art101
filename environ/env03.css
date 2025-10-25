@@ -20,16 +20,21 @@ h2 {
     font-size: 50px;
 }
 
-.high1 {
+#high1 {
     color: chartreuse;
     margin: 30px;
     font-size: 40px;
 }
 
-.high2 {
+#high2 {
     color: rgb(243, 47, 138);
     margin: 30px;
     font-size: 40px;
+} 
+ 
+#weather {
+    color:white; 
+    font-size:20px
 }
 
 #bat {
