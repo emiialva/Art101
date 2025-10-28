@@ -25,8 +25,9 @@ let tap=0;
 $("#high2").click(function say(){  
     tap=tap+1; 
     if([tap]="2")
-    alert("Aw ok... :( If you change your mind, go back and press the 'yes' button"); 
-});    
+    alert("Aw ok... :( If you change your mind, go back and press the 'yes' button");  
+
+});     
   
 let count = 0; 
 $("#high1").click( function() {
@@ -42,12 +43,10 @@ if([count]=="4")
 
 if (count == 5) { count = 0; }
 
-});  
+});   
 
 
-
-
-
-
-
+ 
+function myFunction() {
+  document.body.style.backgroundImage = "url('images02/stars.png')";};
 

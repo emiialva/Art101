@@ -55,7 +55,8 @@ button {
 
 body {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    background-color:rgb(9, 8, 27);
 }
 
 #split {
@@ -79,4 +80,5 @@ body {
     color: aquamarine;
     background-color: grey;
     font-size: large;
-}
+} 
+
