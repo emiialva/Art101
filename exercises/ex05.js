@@ -29,12 +29,6 @@ $(".color-button").click( function(){
 
    return mood;
  } 
- $("#reset-button").click(function () {
-    count = 0;
-    $("#needy-button").html("click me");
-    $("body").css("background-color", "white") 
-    
-});
 
 // the button part
 $("#needy-button").click(function () {
@@ -48,5 +42,13 @@ $("#needy-button").click(function () {
 
    count = count + 1;
    colorCount = colorCount + 1;
-   if (colorCount == 4) { colorCount = 0; }
+   if (colorCount == 4) { colorCount = 0; } 
+}); 
+ 
+ $("#reset-button").click(function () {
+    count = 0;
+    $("#needy-button").html("click me!");
+    $("body").css("background-color", "white")  
+    $("img").remove();
+
 });
