@@ -28,7 +28,13 @@ $(".color-button").click( function(){
    $("#needy-button").html("Clicks: " + moodyCount + " Color: " + colors[colorCount] + " " + mood);  
 
    return mood;
- }
+ } 
+ $("#reset-button").click(function () {
+    count = 0;
+    $("#needy-button").html("click me");
+    $("body").css("background-color", "white") 
+    
+});
 
 // the button part
 $("#needy-button").click(function () {
