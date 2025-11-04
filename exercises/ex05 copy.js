@@ -45,4 +45,10 @@ $("#needy-button").click(function () {
    if (colorCount == 4) { colorCount = 0; } 
 }); 
  
+ $("#reset-button").click(function () {
+    count = 0;
+    $("#needy-button").html("click me!");
+    $("body").css("background-color", "white")  
+    $("img").remove();
 
+});
