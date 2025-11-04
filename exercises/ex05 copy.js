@@ -50,5 +50,4 @@ $("#needy-button").click(function () {
     $("#needy-button").html("click me!");
     $("body").css("background-color", "white")  
     $("img").remove();
-
 });
