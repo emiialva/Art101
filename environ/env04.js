@@ -69,7 +69,7 @@ $("#weather").click(function(){
 }); 
 
   $("#output2").hover(function(){
-    $(this).css("background-color", "grey");
-    }, function(){
     $(this).css("background-color", "hotpink");
+    }, function(){
+    $(this).css("background-color", "grey");
   });
