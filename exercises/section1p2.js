@@ -1,13 +1,13 @@
 
- function checkMood(score) { 
-    if (randomScore > 7){moodResult= "neutral";} 
-    else if (randomScore > 4){moodResult= "tired";}
-    else {randomScore = "bored";} 
+ function checkMood(score) {  
+  let mood;
+    if (score > 7){mood= "neutral";} 
+    else if (score > 4){mood= "tired";}
+    else {mood = "bored";} 
     
-
+return mood;
   }
-
-
+  
   function showMood() {
     let randomScore = Math.floor(Math.random() * 10) + 1;
     let moodResult = checkMood(randomScore); 
@@ -18,7 +18,7 @@
     );
   }
 
- 
    
    $("#mood-button").click(function () {
-    showMood(); });
+    showMood(); 
+  });
