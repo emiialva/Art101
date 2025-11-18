@@ -1,0 +1,90 @@
+h1 {
+    color: rgb(243, 47, 138);
+    font-size: 60px;
+}
+
+#text {
+    background-color: darkslateblue;
+    color: rgb(107, 233, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    color: aquamarine;
+    font-size: 50px;
+}
+
+#high1 {
+    color: chartreuse;
+    margin: 30px;
+    font-size: 40px;
+}
+
+#high2 {
+    color: rgb(243, 47, 138);
+    margin: 30px;
+    font-size: 40px;
+} 
+ 
+#weather {
+    color:white; 
+    font-size:20px
+}
+
+#bat {
+    width: 200px;
+}
+
+#cloudy {
+    width: 300px;
+}
+
+#options :hover {
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: darkslateblue;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color:rgb(9, 8, 27);
+}
+
+#split {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#output {
+    color: aquamarine;
+    background-color: grey;
+    font-size: medium;
+    text-align: center;
+
+
+}
+
+#output2 {
+    color: aquamarine;
+    background-color: grey;
+    font-size: large;
+}  
+ 
+
+
+#blast {
+    color:white; 
+    font-size:30px;
+}
