@@ -82,6 +82,6 @@ $(".vampkitty").mousemove(function(event) {
 });
   }); 
 
-$("#output2").mouseenter(function(){
-  alert("Guide Vampire Cat back to it's home with your mouse");
+$("#text").mouseenter(function(){
+  alert("Scroll down to start playing the game :)");
 });
