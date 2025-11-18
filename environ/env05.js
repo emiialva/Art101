@@ -84,4 +84,4 @@ $(".vampkitty").mousemove(function(event) {
 
 $("#text").mouseenter(function(){
   alert("Scroll down to start playing the game :)");
-});
+}); 
