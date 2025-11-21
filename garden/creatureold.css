@@ -30,9 +30,7 @@
     display: flex;
     width: 100px;
     height: 100px;   
-    border-radius: 50px; 
-    position: relative; 
-
+    border-radius: 50px;
 }
 
 .eye { height: 18px; width: 10px; border: 2px solid #000; border-radius: 10px; background: #fff;}
