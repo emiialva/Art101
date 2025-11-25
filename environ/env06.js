@@ -76,21 +76,24 @@ $("#blast").click(function () {
 
 
   $("body").append($("#cloudyImg"));
-});
+}); 
+
 //hover color
 $("#output2").hover(function () {
   $(this).css("background-color", "hotpink");
 }, function () {
   $(this).css("background-color", "grey");
-});
+}); 
+
 //cat move w/ mouse
 $(".vampkitty").mousemove(function (event) {
   $(".vampkitty").css({
     left: event.pageX - 70,
     top: event.pageY - 70,
     position: "absolute"
-  });
-});
+  }); 
+}); 
+
 //mouse pop up alert
 $("#text").mouseenter(function () {
   alert("Scroll down to start playing the game :)");
