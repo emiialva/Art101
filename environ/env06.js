@@ -25,7 +25,7 @@ function isNyanpireValid(Nyanpire) {
 
   if (Nyanpire === "halfVampire") return true;
 
-}
+};
 
 
 //No button
