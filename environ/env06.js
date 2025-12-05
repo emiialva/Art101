@@ -11,7 +11,7 @@ let Nyanpire = {
 //character actions and instructions 
 let gameActions = ["clearing", "energy restoration", "flying"];
 let instructionText;
-instructionText = "<p> If you decide to play, you must safely guide Vampire Cat to it's home. Some of the actions that players will be given are as follows: " + gameActions[0] + " obstacles, " + gameActions[2] + ", and " + gameActions[1] + ". Use these wisely and have fun!</p>";
+instructionText = "<p> If you decide to play, you must safely guide Vampire Cat to it's home by collecting as many stars as you can. Some of the actions that players will be given are as follows: " + gameActions[0] + " obstacles, " + gameActions[2] + ", and " + gameActions[1] + ". Use these wisely and have fun!</p>";
 $("#output2").html(instructionText);
 
 let megaText;
