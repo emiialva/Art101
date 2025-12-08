@@ -265,4 +265,15 @@ window.onload = () => {
     getRandomPokemon();
     startTimer();
 };
+ 
+// ---------------------------------------------
+// TIMER/SCORE RESET
+// ---------------------------------------------
+function resetGame() {
 
+    score = 0;
+    updateScore();
+
+
+    loadNewPokemon();
+}
