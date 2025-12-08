@@ -276,4 +276,4 @@ function resetGame() {
 
 
     loadNewPokemon();
-}
+} 

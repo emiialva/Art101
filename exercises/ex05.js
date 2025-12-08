@@ -51,3 +51,4 @@ $("#needy-button").click(function () {
     $("body").css("background-color", "white")  
     $("img").remove();
 });
+

@@ -32,4 +32,4 @@ $("#needy-button").click(function()
  }); 
 
 // messages [count%messages.length] 
-//remainder (%) operator returns the remainder left over when one operand 
+//remainder (%) operator returns the remainder left over when one operand  

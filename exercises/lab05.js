@@ -12,3 +12,4 @@ $("#good-button").click(function () {
     askNumber(5);
 });  
 
+

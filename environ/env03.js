@@ -50,3 +50,5 @@ if (count == 5) { count = 0; }
 function myFunction() {
   document.body.style.backgroundImage = "url('images02/stars.png')";};
 
+
+  

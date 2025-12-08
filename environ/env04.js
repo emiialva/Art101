@@ -72,4 +72,5 @@ $("#weather").click(function(){
     $(this).css("background-color", "hotpink");
     }, function(){
     $(this).css("background-color", "grey");
-  });
+  }); 
+  

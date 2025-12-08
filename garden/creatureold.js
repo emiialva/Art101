@@ -29,3 +29,4 @@ $("#add-creature").click(
 
     });
     
+    
